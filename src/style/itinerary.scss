@@ -1,0 +1,416 @@
+//正式
+.itin-close-wrap {
+  .btn {
+    height: 36px;
+  }
+  h1 {
+    margin: 0;
+  }
+}
+//地圖相關
+.itin-editview-wrapper {
+  min-height: calc(100vh - 80px);
+  position: relative;
+  overflow: hidden;
+  .itin-editor-title {
+    position: relative;
+    z-index: 2;
+  }
+  .itin-editor-wrapper {
+    max-height: calc(100vh - 230px);
+    overflow: auto;
+    position: relative;
+    z-index: 2;
+  }
+}
+.itin-display-map {
+  width: 100%;
+  height: 100%;
+}
+.map-comp-wrapper {
+  position: absolute;
+  z-index: 1;
+  height: calc(100vh - 80px);
+  width: 100vw;
+  background: rgb(223, 142, 142);
+}
+.map-search-wrapper {
+  width: 400px;
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  right: 100px;
+  background: $sub-gray;
+  padding: 8px 16px;
+  border-radius: 8px;
+  input {
+    width: 100%;
+    margin: 0;
+  }
+  .map-search-result {
+    width: 100%;
+    padding: 32px 0;
+    &:hover {
+      background: $sub-silver;
+    }
+  }
+  .map-search-plus {
+    padding: 32px 15px;
+    width: 50px;
+  }
+}
+.map-markerWrap {
+  width: 50px;
+  transform: translate(-29px, -50px);
+  position: relative;
+  img {
+    position: relative;
+    margin-bottom: 10px;
+    z-index: 4;
+    & + h5 {
+      text-align: center;
+      width: 150px;
+      position: absolute;
+      transform: translateY(70px);
+      opacity: 0;
+    }
+    &:hover + h5 {
+      opacity: 1;
+    }
+  }
+  .map-marker-info {
+    text-align: center;
+    display: none;
+    background: #fff;
+    // border: 1px solid #000;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 10;
+    transform: translateY(-110px);
+    min-width: 150px;
+    padding: 10px;
+    &.display-info {
+      transform: translateY(-70px);
+    }
+    &::after {
+      border-color: #fff transparent transparent;
+      border-style: solid solid solid solid;
+      border-width: 18px;
+      bottom: -28px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 0px;
+      width: 0px;
+      position: absolute;
+      content: '';
+    }
+    &.map-info-open {
+      display: initial;
+    }
+    p {
+      margin: 10px 0;
+    }
+    svg {
+      margin-bottom: 3px;
+    }
+  }
+}
+//editor相關
+.itin-editor-frame {
+  width: 1130px;
+  margin: 0 auto;
+}
+.itin-editor-title {
+  width: $itineditor-width;
+  background: $sub-gray;
+  padding: 32px;
+  input {
+    width: 400px;
+    margin: 0;
+  }
+  span {
+    .btn {
+      margin-left: 16px;
+    }
+  }
+  &.publish-title {
+    width: 100%;
+    padding: 48px 0;
+    h1 {
+      margin: 0;
+    }
+    h2 {
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    .btn {
+      width: 100px;
+      margin-left: 32px;
+    }
+  }
+}
+.itin-BasicData-wapper {
+  background: #fff;
+  width: $itineditor-width;
+  padding: 16px 32px;
+  border-radius: 6px 6px 0 0;
+  svg {
+    margin-bottom: 3px;
+  }
+  textarea {
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    background: $main-gray;
+    padding: 16px;
+  }
+  .itin-BasicData-head {
+    height: 72px;
+    .itin-BasicData-avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 32px;
+      flex-shrink: 0;
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    h4 {
+      margin: 0;
+    }
+    .itin-BasicData-label {
+      width: 80px;
+      height: 26px;
+      background-color: $main-darkblue;
+      color: #fff;
+      border-radius: 16px;
+      text-align: center;
+      margin-left: 16px;
+      display: inline-block;
+      span {
+        line-height: 28px;
+      }
+    }
+    .itin-basic-headdata {
+      span {
+        color: $sub-dark-gray;
+      }
+    }
+  }
+}
+.itin-editor-wrapper {
+  width: $itineditor-width;
+  background: #fff;
+
+  .itin-editor-daybox {
+    height: 80px;
+    border-radius: 4px;
+    background: $main-darkblue;
+    color: #fff;
+    padding: 0 32px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    transition: 0.2s;
+    &.daybox-close {
+      height: 40px;
+      + .itin-editor-spotsWapper {
+        display: none;
+      }
+    }
+    &.dayPlus {
+      opacity: 0.7;
+      height: 40px;
+      svg {
+        &:hover {
+          color: $main-lightblue;
+        }
+      }
+    }
+  }
+  .itin-editor-spotsWapper {
+    min-height: 70px;
+    background: #fff;
+    padding: 8px 0 16px;
+    input {
+      border: 1px solid $sub-dark-gray;
+      border-radius: 3px;
+    }
+  }
+  .box-close-btn:hover {
+    svg {
+      color: $main-red;
+    }
+  }
+}
+.itin-editbar-wrapper {
+  max-width: 450px;
+  min-height: 130px;
+  margin-top: 32px;
+  background: transparent;
+  .itin-editbar-btnwapper {
+    width: 100%;
+    padding: 16px;
+    background: $sub-gray;
+    border-radius: 6px;
+    margin: 0 12px;
+  }
+  .btn {
+    width: 120px;
+  }
+  input {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .itin-editbar-searchresult {
+    width: 100%;
+    margin: 0 12px;
+    padding: 8px 16px;
+    cursor: pointer;
+    &:hover {
+      background: $sub-silver;
+    }
+  }
+}
+.itin-detail-wrapper {
+  border-radius: 6px;
+  background: #fff;
+  width: 564px;
+  padding: 32px 50px;
+  h4 {
+    display: none;
+  }
+  .itin-detail-map-wrapper {
+    width: 100%;
+    height: 250px;
+  }
+  .itin-detail-pictext-wrapper {
+    display: none;
+  }
+  .itin-detailPicText-show {
+    display: initial;
+  }
+  textarea {
+    width: 100%;
+    min-height: 100px;
+    max-height: 250px;
+    background: $main-gray;
+    padding: 16px;
+  }
+  .showInfoText {
+    width: 100%;
+    padding: 16px 0;
+  }
+  .itin-pic-input {
+    width: 0;
+    opacity: 0;
+    float: left;
+  }
+  .itin-detail-checkKV {
+    text-align: right;
+  }
+  .detailPic {
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .itin-readyToUpload {
+      display: inline-block;
+      border: 1px dashed $sub-dark-gray;
+      height: 100%;
+      width: 100%;
+      background: $main-gray;
+    }
+  }
+}
+//box相關
+.spotsbox-wrapper {
+  width: 480px;
+  min-height: 80px;
+  background: $main-gray;
+  padding: 6px 8px;
+  margin: 16px auto;
+  h3,
+  h4 {
+    margin: 0;
+  }
+  svg {
+    margin: 0 12px;
+    margin-bottom: 3px;
+  }
+  input {
+    font-size: 20px;
+    display: inline;
+    margin: 0;
+  }
+  .box-input-title {
+    margin-left: 8px;
+    width: 210px;
+  }
+  .box-close-btn {
+    cursor: pointer;
+    &:hover {
+      svg {
+        color: $main-red;
+      }
+    }
+  }
+}
+.my-itinerary-table {
+  position: relative;
+  Table {
+    table-layout: fixed;
+    thead {
+      text-align: center;
+      font-weight: normal;
+      color: $font-black;
+      font-size: 16px;
+      background: $sub-gray;
+    }
+    tbody {
+      tr:nth-child(2n + 1) {
+        background: $main-gray;
+      }
+      tr:nth-child(2n) {
+        background: $sub-gray;
+      }
+      td:nth-child(1) {
+        text-align: center;
+      }
+      td {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+//測試用
+.testDragBox {
+  border: 1px solid transparent;
+  p,
+  h4 {
+    margin: 0;
+  }
+  &.box-select {
+    .spotsbox-wrapper {
+      border: 2px solid $main-lightblue;
+    }
+  }
+}
+.testDropArea {
+  background: red;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+.testMapWrap {
+  height: 100vh;
+  width: 100vw;
+}
+// 檔案負責人: 柯政安

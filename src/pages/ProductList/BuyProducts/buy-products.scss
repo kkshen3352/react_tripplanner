@@ -1,0 +1,263 @@
+@import '../../../style/custom.scss';
+@import '../../../style/main.scss';
+
+.container {
+  margin: 0 auto;
+  hr {
+    border: 1px solid #707070;
+    width: 700px;
+  }
+}
+
+.heroPhoto {
+  width: 1080px;
+  height: 540px;
+  margin: 1rem auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  Button {
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+  }
+}
+.buyTheTicket {
+  display: flex;
+  justify-content: space-between;
+  .aboutClass {
+    display: flex;
+    flex-direction: column;
+    p {
+      font-family: 'Noto Sans TC';
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+    .aboutIcon {
+      display: flex;
+      margin: 16px 0;
+      div {
+        margin-left: 1rem;
+      }
+      .ticketAndPrice {
+        display: flex;
+        margin: 0 0;
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin-right: 8px;
+          font-family: 'Noto Sans TC';
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+      .tag {
+        Button {
+          height: 40px;
+          color: #4464be;
+          font-size: 14px;
+          border: 1px solid #4464be;
+          border-radius: 22px;
+          margin: 0 4px;
+        }
+      }
+    }
+  }
+}
+.IWantBuy {
+  width: 280px;
+  margin-top: 32px;
+  box-shadow: 0 3px 6px rgba($color: $sub-dark-gray, $alpha: 0.6);
+  padding: 32px 24px;
+  border-radius: 6px;
+  background-color: #e9edf0;
+
+  .clock-time {
+    display: flex;
+    margin: 32px auto;
+    svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+    p {
+      margin-right: 12px;
+    }
+  }
+
+  svg {
+    width: 35px;
+    height: 35px;
+    color: #4464be;
+  }
+  .ticketBuy {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    .plusAndMinus {
+      flex: 1 0 0;
+      display: flex;
+      justify-content: space-around;
+    }
+    p {
+      line-height: 35px;
+    }
+    .btn-light {
+      background-color: transparent;
+      padding: 0 0;
+      background-color: transparent;
+      border: 1px solid transparent;
+    }
+  }
+}
+.none {
+  display: none;
+}
+.modalButton {
+  display: flex;
+  .keepShop,
+  .goNextOne {
+    font-family: 'Noto Sans TC';
+    padding: 0 0;
+    width: 100px;
+    height: 30px;
+    margin: 8px;
+    background-color: #4464be;
+  }
+}
+.buttonAndHeart {
+  text-align: center;
+
+  .btn-info {
+    font-family: 'Noto Sans TC';
+    font-size: 14px;
+    width: 165px;
+    height: 40px;
+    border-radius: 3px;
+    margin-bottom: 26px;
+  }
+  .btn-light {
+    padding: 0 0;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    svg {
+      color: #000;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .followMyHeart {
+    display: flex;
+    justify-content: center;
+    svg {
+      color: $info;
+    }
+    p {
+      font-family: 'Roboto';
+      font-size: 20px;
+      margin-left: 8px;
+    }
+  }
+}
+.aboutClassDetails {
+  font-family: 'Noto Sans TC';
+  font-size: 16px;
+  // 下半區整體樣式
+  hr {
+    float: left;
+    margin: 32px 0;
+  }
+  ul {
+    list-style: none;
+    list-style-position: outside;
+  }
+  .classTitel {
+    border-left: 4px solid #4464be;
+    padding-left: 5px;
+    margin-bottom: 8px;
+  }
+  .calssInside {
+    width: 700px;
+    padding-left: 40px;
+  }
+  .introduction {
+    margin-bottom: 36px;
+    clear: both;
+    .shouldKnow {
+      list-style-type: decimal;
+      list-style-position: inside;
+    }
+    .btn-link {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 16px 0 32px 0;
+      overflow: hidden;
+      padding: 0 0;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .thisIsMap {
+      overflow: hidden;
+      margin: 8px 0 16px 0;
+    }
+  }
+}
+
+.modalPage {
+  border-radius: 6px;
+
+  .modal-header {
+    border-bottom: 1px solid transparent;
+    .close {
+      margin: 0 0;
+      padding: 0 0;
+    }
+  }
+
+  .modalPhoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 8px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .nameAndTitle {
+    width: 100%;
+    text-align: center;
+    p {
+      text-align: center;
+      margin-top: 16px;
+    }
+    .teacher_history {
+      width: 80%;
+      margin: 8px auto;
+    }
+  }
+}

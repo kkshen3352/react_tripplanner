@@ -1,0 +1,29 @@
+[
+    {"type":"header","version":"5.0.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+    {"type":"database","name":"final"},
+    {"type":"table","name":"itinerary","database":"final","data":
+    [
+    {"id":"1","member_id":"1","title":"台北一日到處遊","duration":"1","establish_time":"202101010000","publish_time":"202101010100","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"2","member_id":"3","title":"資策會五日集中訓練","duration":"5","establish_time":"202101031200","publish_time":"202101052359","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"3","member_id":"5","title":"火車到處坐","duration":"1","establish_time":"202101040900","publish_time":null,"heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"4","member_id":"1","title":"中大湖探險","duration":"1","establish_time":"202101051111","publish_time":"202101072333","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"5","member_id":"6","title":"漫步油桐花 葡萄莊園趣 愜意一日遊","duration":"1","establish_time":"202101061611","publish_time":"202101200555","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"6","member_id":"7","title":"【山海釀酵花東旅】花東縱谷客家小鎮“釀”","duration":"2","establish_time":"202101071122","publish_time":null,"heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"7","member_id":"8","title":"【遊山輕健行】雪山東峰、武陵農場二日遊篇","duration":"2","establish_time":"202101082022","publish_time":"202101101635","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"8","member_id":"9","title":"【遊山輕健行】雪山東峰、武陵農場二日遊篇","duration":"2","establish_time":"202101082022","publish_time":"202101101635","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"9","member_id":"10","title":"素野竹苗 茶香美饌 溫泉二日","duration":"2","establish_time":"202101090724","publish_time":"202101112235","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"10","member_id":"11","title":"梅玩莓了‧四重奏～梅花季‧梅子酒莊‧水里","duration":"5","establish_time":"202101100921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"11","member_id":"11","title":"金門IG景點．獅山砲陣地砲操表演3日","duration":"3","establish_time":"202101111111","publish_time":"202101122135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"12","member_id":"11","title":"東環菓葉灰窯‧南環北環‧世界百大南寮漫遊","duration":"4","establish_time":"202101120921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"13","member_id":"11","title":"四人成行!森林療癒～八仙山之美．戀夏薰衣","duration":"7","establish_time":"202101130921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"14","member_id":"12","title":"千巧谷的牛‧虎尾的貓‧華山的劍湖","duration":"2","establish_time":"202101140921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"15","member_id":"14","title":"九族賞櫻盛會．上帝的部落－司馬庫斯～巨木","duration":"5","establish_time":"202101150921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"16","member_id":"15","title":"哞幻光影嘉年華．集線風光．鐵馬小鎮漫遊２","duration":"2","establish_time":"202101160921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"17","member_id":"15","title":"舒適三排椅~粉紅佳人X武陵櫻花‧保證入住","duration":"2","establish_time":"202101170921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"18","member_id":"16","title":"比西里岸尋找牧羊童．唯美海上步道．成功花","duration":"3","establish_time":"202101180921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"19","member_id":"17","title":"舒適三排椅~粉紅佳人X武陵櫻花‧保證入住","duration":"12","establish_time":"202101190921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"},
+    {"id":"20","member_id":"19","title":"知本森林．初鹿牧場．品嘗東河包子","duration":"3","establish_time":"202101200921","publish_time":"202101222135","heart":"0","keep":"0","view":"0","info":null,"image":null,"valid":"1"}
+    ]
+    }
+    ]
+    

@@ -1,0 +1,281 @@
+//我的揪團-我參加的揪團-歷史紀錄-查看
+.tb-button-read {
+  width: 80px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+//我的揪團-編輯
+.tbmine-button-edit {
+  width: 80px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+//我的揪團-團員確認
+.tbmine-button-membersselect {
+  width: 110px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+//我的揪團-團員確認-團員確認頁面
+.tb-members-select {
+  width: 80px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+.tb-members-select-back-to-account {
+  width: 120px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+//我的揪團-我參加的揪團-歷史紀錄-聊天室
+.tb-button-chatroom {
+  width: 95px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+//我的揪團-刪除
+.tbmine-button-delete {
+  width: 85px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-red;
+  color: #ffffff;
+  font-size: 14px;
+}
+.tbmine-delete-title {
+  color: $sub-dark-gray;
+  span {
+    color: $main-darkblue;
+  }
+}
+.tbmine-button-delete-cancel {
+  width: 85px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-gray;
+  color: $font-black;
+  font-size: 14px;
+}
+.tbmine-button-delete-confirm {
+  width: 85px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $sub-green;
+  color: #ffffff;
+  font-size: 14px;
+}
+//我參加的揪團-取消報名
+.tbjoined-button-dropout {
+  width: 110px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-red;
+  color: #ffffff;
+  font-size: 14px;
+}
+.tbjoined-dropout-title {
+  color: $sub-dark-gray;
+}
+.tbjoined-button-dropout-cancel {
+  width: 85px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-gray;
+  color: $font-black;
+  font-size: 14px;
+}
+.tbjoined-button-dropout-confirm {
+  width: 85px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $sub-green;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+//歷史紀錄-查看評價
+.tbhistory-button-rating {
+  width: 110px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+.tbhistory-rating-title {
+  color: $sub-dark-gray;
+}
+.tbhistory-button-rating-close {
+  width: 85px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-gray;
+  color: $font-black;
+  font-size: 14px;
+}
+//歷史紀錄-查看評價-StarRating
+
+.tb-star-rating-got {
+  margin: 1rem 1rem;
+  font-size: 16px;
+}
+.tb-star-rating-wrapper {
+  width: 250px;
+  height: 115px;
+  border: none;
+  background-color: #fff;
+  margin: 1rem auto;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  p {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Noto Sans TC';
+  }
+  label {
+    font-size: 36px;
+    font-family: 'Roboto';
+    margin-left: 1rem;
+  }
+  span {
+    color: #46beeb;
+    font-size: 30px;
+    cursor: default;
+  }
+}
+.tb-star-rating-no {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+//歷史紀錄-評價團員
+.tbhistory-button-giverating {
+  width: 110px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+.tbhistory-giverating-title {
+  color: $sub-dark-gray;
+}
+.tbhistory-button-giverating-cancel {
+  width: 85px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-gray;
+  color: $font-black;
+  font-size: 14px;
+}
+.tbhistory-button-giverating-confirm {
+  width: 85px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $sub-green;
+  color: #ffffff;
+  font-size: 14px;
+}
+.tb-give-star-rating-wrapper {
+  width: 400px;
+  height: 115px;
+  border: none;
+  background-color: #fff;
+  align-items: center;
+  padding-right: 1rem;
+  img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  div {
+    width: 140px;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Noto Sans TC';
+    margin-right: 1rem;
+  }
+  label {
+    font-size: 36px;
+    font-family: 'Roboto';
+    margin-left: 1rem;
+  }
+  span {
+    color: #46beeb;
+    font-size: 30px;
+    cursor: default;
+  }
+}
+.tb-star-rating-done {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+//我的揪團-歷史紀錄-團員評價頁面
+.tb-give-star-mine {
+  width: 80px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $sub-green;
+  color: #ffffff;
+  font-size: 14px;
+}
+.tb-give-star {
+  width: 80px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+.tb-give-star-back-to-account {
+  width: 120px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}

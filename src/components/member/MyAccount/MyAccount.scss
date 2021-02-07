@@ -1,0 +1,15 @@
+$sub-dark-gray: #707070;
+//我的帳戶標題
+.MyAccount-title{
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+//通知表單&我的帳戶
+.notice-style{
+    background: #ffffff;
+    border-radius: 6px;
+    max-width: 810px;
+    box-shadow: 0 3px 6px rgba($color: $sub-dark-gray, $alpha: 0.6);
+    padding-bottom: 10px;
+  }  

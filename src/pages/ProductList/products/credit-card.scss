@@ -1,0 +1,87 @@
+.ihwovD {
+  font-family: 'Space Mono', monospace;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  height: 200px;
+  width: 320px;
+  flex: 0 0 auto;
+  padding: 0 1em;
+
+  .credit-card {
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 1px 1px #aaa3a3;
+    background: linear-gradient(45deg, #343a40, #666666, #343a40);
+    color: #fff;
+
+    .cardNumber {
+      position: relative;
+      top: 75px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.2em;
+      word-spacing: 4px;
+      letter-spacing: 2px;
+      padding: 0 1em;
+    }
+
+    .cardInfo {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      letter-spacing: 1px;
+      line-height: 18px;
+      text-transform: uppercase;
+      position: relative;
+      top: 110px;
+      padding: 0 1em;
+
+      span {
+        font-size: 11px;
+      }
+
+      p {
+        margin-top: 8px;
+        font-size: 16px;
+      }
+
+      .cardExpiry {
+        text-align: left;
+      }
+    }
+  }
+}
+.kiFrMj {
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  width: 400px;
+  padding: 1em 2em;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
+
+  .card-ul {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0;
+
+    li {
+      display: flex;
+      justify-content: space-around;
+
+      label {
+        text-align: left;
+        margin-right: 8px;
+        flex: 1 0 0;
+      }
+      input {
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #ebecee;
+        flex: 1 0 0;
+        margin: 2px 0;
+      }
+    }
+  }
+}
+
+.show-time {
+  display: flex;
+}

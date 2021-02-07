@@ -1,0 +1,58 @@
+.star-rating-wrapper {
+  width: 250px;
+  height: 115px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba($color: $sub-dark-gray, $alpha: 0.6);
+  background-color: #fff;
+  margin: 1rem auto;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  p {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Noto Sans TC';
+  }
+  label {
+    font-size: 36px;
+    font-family: 'Roboto';
+    margin-left: 1rem;
+    margin-right: 8px;
+  }
+  span {
+    color: #46beeb;
+    font-size: 30px;
+    cursor: default;
+  }
+}
+
+//tb-star
+.starOn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #46beeb;
+  font-size: 30px;
+}
+.starOff {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: $main-gray;
+  font-size: 30px;
+}
+.star-rating-outbox {
+  text-align: center;
+  width: 450px;
+  .star-rating-name {
+    font-size: 20px;
+    margin-left: 100px;
+    text-align: left;
+  }
+}
+
+.tb-check-star-rating {
+  text-align: center;
+  width: 450px;
+}

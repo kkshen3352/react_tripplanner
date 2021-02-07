@@ -1,0 +1,11 @@
+.tb-liked-wrapper {
+  align-items: center;
+  span {
+    color: $main-red;
+    font-size: 26px;
+    cursor: default;
+  }
+  div {
+    margin-left: 0.5rem;
+  }
+}

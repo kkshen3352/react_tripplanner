@@ -1,0 +1,177 @@
+//ant 樣式
+@import 'antd/dist/antd.css';
+@import './custom.scss';
+//bootstrap樣式
+//
+//SCSS變數宣告區
+//顏色相關
+$main-gray: #e9edf0;
+$main-red: #f9669c;
+$main-lightblue: #46beeb;
+$main-darkblue: #4464be;
+$sub-gray: #f5f3f4;
+$sub-silver: #f0efe6;
+$sub-green: #8fc69a;
+$sub-dark-gray: #707070;
+$font-black: #040404;
+
+//卡片相關
+$card-widhth: 350px;
+$card-height: 450px;
+$card-figure-height: 240px;
+$card-button-height: 50px;
+$card-content-height: 110px;
+$card-border-radius: 10px;
+//searchbar相關
+$searchbar-width: 1000px;
+$searchbar-height: 65px;
+//itineditor相關
+$itineditor-width: 550px;
+//變數區結尾
+
+//文字相關
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Roboto&display=swap');
+//標準字級
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+p {
+  margin: 0;
+}
+p.content-small {
+  font-size: 14px;
+}
+
+//tag樣式
+body {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+  font-weight: 500;
+  background-color: $main-gray;
+}
+
+//class樣式
+//組件
+.test-wrap {
+  margin: 0 auto;
+  width: 1440px;
+  padding: 100px;
+}
+.form-custom {
+  //表單設計樣式
+  height: 45px;
+  border: 1px solid $main-gray;
+  border-radius: 3px;
+  padding: 10px 16px;
+  margin: 0 12px;
+}
+.custom-box-shadow {
+  box-shadow: 0 3px 6px rgba($color: $sub-dark-gray, $alpha: 0.6);
+}
+.HomeNavbar-inner {
+  background: $main-lightblue;
+}
+.pages-bar {
+  margin: 0 auto;
+}
+// header
+@import './header.scss';
+
+//footer
+@import './footer.scss';
+
+// home
+@import './home.scss';
+// 首頁Searchbar
+@import './HomeSearchbar.scss';
+
+//memberPage
+@import './memberPage.scss';
+
+//card
+@import './card.scss';
+
+//searchbar
+@import './searchbar.scss';
+
+// 評分星星
+@import './star-rating.scss';
+
+// 左邊的會員
+@import './person.scss';
+
+// 月曆的
+@import './calendar.scss';
+
+// 上面那條導覽
+@import './function-bar.scss';
+
+//page
+@import './pages.scss';
+
+//行程相關
+@import './itinerary.scss';
+
+// header
+@import './header.scss';
+
+//footer
+@import './footer.scss';
+
+//Carousel
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+.carousel-main {
+  position: relative;
+  width: 1440px;
+  height: 360px;
+  overflow: hidden;
+  text-align: center;
+  margin: 21px auto;
+}
+.carousel-outbox {
+  position: relative;
+}
+.carousel-slide img {
+  width: 872px;
+  height: 360px;
+  margin: 0px auto;
+}
+.carousel-slide {
+  transform: scale(0.9);
+  margin: 0px auto;
+  top: 50%;
+}
+.carousel-active-slide {
+  transform: scale(1);
+  margin: 0px auto;
+}
+
+//揪團主頁
+@import './travelBuddiesMainPage.scss';
+
+//揪團主頁-Liked
+@import './travelBuddiesLiked.scss';
+
+//新增揪團
+@import './addTravelBuddies.scss';
+
+//會員-揪團-我的揪團
+@import './travelBuddiesMyAccount.scss';
+
+//會員-揪團-我的揪團-按鈕
+@import './tbMyAccountButton.scss';
+
+//揪團聊天室
+@import './travelBuddiesChatroom.scss';

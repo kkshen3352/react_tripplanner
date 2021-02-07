@@ -1,0 +1,37 @@
+.searchbar-wrapper {
+  width: $searchbar-width;
+  height: $searchbar-height;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba($color: $sub-dark-gray, $alpha: 0.6);
+  border-radius: 6px 50px 50px 6px;
+  padding-left: 12px;
+  margin: 16px auto;
+}
+.searchbar-form-wrapper {
+  width: $searchbar-width - $searchbar-height;
+}
+.searchbar-area {
+  width: 100px;
+}
+.searchbar-town {
+  width: 150px;
+}
+.searchbar-day {
+  width: 150px;
+}
+.searchbar-input {
+  width: 100%;
+}
+.do-search-button {
+  width: $searchbar-height;
+  height: $searchbar-height;
+  border-radius: 50%;
+  background-color: $main-lightblue;
+  background-image: url(http://localhost:3000/images/paperPlane.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  &:hover {
+    background-color: $main-darkblue;
+  }
+}

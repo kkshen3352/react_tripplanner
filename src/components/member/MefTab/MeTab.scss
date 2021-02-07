@@ -1,0 +1,14 @@
+$sub-dark-gray: #707070;
+//收藏卡片元件樣式
+.Mef-Tab-style{
+    background: #ffffff;
+    border-radius: 6px;
+    max-width: 810px;
+    box-shadow: 0 3px 6px rgba($color: $sub-dark-gray, $alpha: 0.6);
+    padding-bottom: 5px;
+}
+.card {
+    border: none;
+    margin: 1rem;
+    background-color: rgb(232, 232, 232);
+  }

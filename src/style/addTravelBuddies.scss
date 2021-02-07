@@ -1,0 +1,95 @@
+.add-travelbuddies-outbox {
+  background: #ffffff;
+  width: 1080px;
+  height: auto;
+  margin: 70px auto;
+  border-radius: 10px;
+  .add-travelbuddies-middle {
+    padding: 40px 32px;
+    Form {
+      position: relative;
+      .add-travelbuddies-topic {
+        color: $sub-dark-gray;
+        font-size: 2.25rem;
+        margin-bottom: 10px;
+      }
+      .add-travelbuddies-picture {
+        background: #f5f3f4;
+        width: 1016px;
+        height: 300px;
+        margin-bottom: 24px;
+      }
+      .add-travelbuddies-importfromi {
+        width: 195px;
+        height: 36px;
+        border: none;
+        border-radius: 3px;
+        background: $main-darkblue;
+        color: #ffffff;
+        font-size: 14px;
+      }
+      .add-travelbuddies-importfromc {
+        width: 225px;
+        height: 36px;
+        border: none;
+        border-radius: 3px;
+        background: $main-darkblue;
+        color: #ffffff;
+        font-size: 14px;
+      }
+      .add-travelbuddies-cancel {
+        width: 120px;
+        height: 36px;
+        border: none;
+        border-radius: 3px;
+        background: $main-gray;
+        color: $sub-dark-gray;
+        font-size: 14px;
+        position: absolute;
+        margin-bottom: 10px;
+        right: 132px;
+      }
+      .add-travelbuddies-confirm {
+        width: 120px;
+        height: 36px;
+        border: none;
+        border-radius: 3px;
+        background: $main-darkblue;
+        color: #ffffff;
+        font-size: 14px;
+        position: absolute;
+        margin-bottom: 10px;
+        right: 6px;
+      }
+    }
+  }
+}
+.importfrom-row-even {
+  background: $sub-gray;
+  width: 100%;
+  height: 45px;
+}
+.importfrom-row-odd {
+  background: $main-gray;
+  width: 100%;
+  height: 45px;
+}
+.add-travelbuddy-importconfirm {
+  width: 150px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
+.demo-button {
+  width: 150px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 20px;
+}

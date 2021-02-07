@@ -1,0 +1,11 @@
+@import 'react-calendar/dist/Calendar.css';
+
+.react-calendar {
+  width: 250px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba($color: $sub-dark-gray, $alpha: 0.6);
+  font-size: 12px;
+  margin: 1rem auto;
+  font-family: 'Roboto';
+  border: 1px solid transparent;
+}

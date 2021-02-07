@@ -1,0 +1,36 @@
+.person {
+  background: #ffffff;
+  width: 250px;
+  height: 350px;
+  padding-top: 1rem;
+  margin: 1rem auto;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba($color: $sub-dark-gray, $alpha: 0.6);
+
+  h3 {
+    font-family: 'Noto Sans TC';
+    color: #4464be;
+    margin-bottom: 24px;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  h4 {
+    font-family: 'Noto Sans TC';
+    margin-top: 1rem;
+    margin-bottom: 24px;
+  }
+  button {
+    width: 150px;
+    height: 35px;
+    background-color: #4464be;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Noto Sans TC';
+    border: 1px solid transparent;
+    color: #fff;
+  }
+}

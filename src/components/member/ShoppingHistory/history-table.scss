@@ -1,0 +1,96 @@
+@import '../../../style/main.scss';
+@import '../../../style/custom.scss';
+
+.table {
+  thead {
+    text-align: center;
+    font-family: 'Noto Sans TC';
+    font-weight: normal;
+    color: #707070;
+    font-size: 16px;
+  }
+
+  tbody {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: normal;
+
+    th {
+      font-size: 16px;
+    }
+
+    td {
+      font-size: 14px;
+      line-height: 30px;
+      li {
+        list-style-type: decimal;
+      }
+      Button {
+        width: 80px;
+        height: 30px;
+      }
+      .btn {
+        border-radius: 3px;
+        font-family: 'Noto Sans TC';
+        font-weight: normal;
+
+        font-size: 14px;
+        padding-top: 4px;
+        padding-bottom: 8px;
+      }
+    }
+  }
+}
+
+// pages
+.table-history {
+  .pagination {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@import '../../../style/pages.scss';
+
+// GetIn
+.background {
+  width: 810px;
+  padding: 32px;
+
+  .product-number {
+    display: flex;
+    margin-bottom: 32px;
+    h3 {
+      margin-right: 16px;
+    }
+  }
+  .inside-detail {
+    display: flex;
+    flex-direction: column;
+    hr {
+      width: 650px;
+      color: #707070;
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+      h4 {
+        flex: 1 0 0;
+        text-align: right;
+        margin-right: 40px;
+        margin-bottom: 0;
+      }
+      h5 {
+        flex: 2 0 0;
+      }
+    }
+    .qrcode {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      margin: 8px auto;
+    }
+  }
+}

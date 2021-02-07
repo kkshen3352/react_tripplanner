@@ -1,0 +1,86 @@
+.navbar {
+  padding: 1px;
+  height: 80px;
+}
+
+.Navbar-Logo {
+  margin: 0px 200px 0px 60px;
+}
+.navbar img {
+  margin: 0;
+}
+.Navbar-Title {
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  margin: 0 100px 0 0;
+}
+
+.Navbar-icon {
+  width: 30px;
+  height: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  transition: 0.5s;
+  margin-right: 40px;
+}
+.not-icon-mover{
+  position: relative;
+  top: 35px;
+  // align-items: center;
+  // justify-content: center;
+}
+.Navebar-figure {
+  width: 45px;
+  height: 45px;
+  margin-right: 60px;
+  margin-top: 10px;
+
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.Navebar-figure:hover {
+  opacity: 1;
+}
+
+.Navebar-figure img {
+  height: 100%;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-menu {
+  text-align: center;
+  height: 100px;
+  transform: translateX(-30%);
+  position: relative;
+  opacity: 0.8;
+}
+//鈴鐺位置
+.badge {
+  color: #ffffff;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 155px;
+}
+figure{
+  .header-img-br{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+//解決會員中心污染顏色
+.dropdown-item.active, .dropdown-item:active {
+  color:black;
+  // text-decoration: none;
+  background-color:transparent;
+}
+

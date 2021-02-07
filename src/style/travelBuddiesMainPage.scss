@@ -1,0 +1,210 @@
+.tb-mainpage-wrapper {
+  width: 1080px;
+  background: transparent;
+  margin: 45px auto;
+  .tb-mainpage-goback {
+    width: 110px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    background: $main-darkblue;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .tb-mainpage-hero-image {
+    width: 1080px;
+    height: 400px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .tb-mainpage-flex {
+    display: flex;
+    justify-content: space-between;
+
+    .tb-mainpage-nameAndPhoto {
+      display: flex;
+      margin-left: 35px;
+      .tb-mainpage-profilephoto {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: -65px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center bottom;
+        }
+      }
+      .tb-mainpage-owner {
+        margin-top: 16px;
+        margin-left: 16px;
+        color: #707070;
+      }
+    }
+
+    .tb-mainpage-condition {
+      width: 500px;
+      height: 150px;
+      background: rgba(0, 0, 0, 0.2);
+      margin-top: -150px;
+
+      .tb-mainpage-icons-group {
+        margin: 20px;
+        justify-content: space-around;
+
+        .tb-mainpage-icons-subgroup {
+          display: flex;
+          p {
+            color: #fff;
+          }
+          .tb-mainpage-much {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #fff;
+            margin-left: 16px;
+            margin-bottom: 0;
+            margin-top: 20px;
+          }
+
+          .tb-mainpage-gender {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .tb-mainpage-howMany {
+            display: flex;
+            justify-content: center;
+
+            .tb-mainpage-people {
+              display: flex;
+              margin-left: 8px;
+              align-items: flex-end;
+
+              h1,
+              p {
+                color: #fff;
+                line-height: 40px;
+              }
+            }
+          }
+
+          .tb-mainpage-icons {
+            color: #ffffff;
+            width: 36px;
+            height: 36px;
+            margin: 8px auto;
+          }
+          .tb-mainpage-icons-word {
+            color: #ffffff;
+          }
+        }
+      }
+      .tb-mainpage-lastapproved {
+        color: #ffffff;
+        float: right;
+        margin-right: 16px;
+      }
+    }
+  }
+
+  .tb-mainpage-label-group {
+    margin: 20px 0 8px 0;
+
+    .tb-mainpage-label {
+      width: 80px;
+      height: 26px;
+      background-color: $main-red;
+      color: #fff;
+      border-radius: 16px;
+
+      text-align: center;
+      margin-right: 1rem;
+      span {
+        line-height: 28px;
+      }
+    }
+  }
+  .tb-mainpage-title {
+    justify-content: space-between;
+    h1 {
+      margin-bottom: 20px;
+    }
+    .tb-mainpage-button-group {
+      .tb-mainpage-button {
+        width: 120px;
+        height: 36px;
+        border: none;
+        border-radius: 3px;
+        background: $main-darkblue;
+        color: #ffffff;
+        font-size: 14px;
+        margin-left: 1rem;
+      }
+    }
+  }
+  .tb-mainpage-tag-group {
+    margin-bottom: 32px;
+    .tb-mainpage-tag {
+      font-size: 14px;
+      height: 40px;
+      width: 88px;
+      background: $main-gray;
+      color: $main-darkblue;
+      border: 1px solid $main-darkblue;
+      border-radius: 22px;
+      margin-right: 1rem;
+      line-height: 40px;
+      text-align: center;
+    }
+  }
+  .tb-mainpage-maincontent-wrapper {
+    width: 1080px;
+    height: auto;
+    border: 1px solid $font-black;
+    border-radius: 10px;
+    background: #ffffff;
+    .tb-mainpage-maincontent {
+      width: 975px;
+      height: auto;
+      margin: 2rem auto;
+      .tb-mainpage-dategroup {
+        align-items: center;
+
+        .tb-mainpage-date {
+          align-items: center;
+          margin-right: 1rem;
+          .tb-mainpage-maincontent-icons {
+            font-size: 20px;
+            margin-right: 1rem;
+          }
+        }
+        .tb-mainpage-liked {
+          right: 0;
+        }
+      }
+    }
+  }
+}
+.tb-mainpage-intro {
+  font-size: 20px;
+}
+.tbmine-button-edit-main {
+  width: 120px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  background: $main-darkblue;
+  color: #ffffff;
+  font-size: 14px;
+}
